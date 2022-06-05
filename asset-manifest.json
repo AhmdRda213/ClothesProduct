@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/ClothesProduct/static/css/main.dfb78563.css",
-    "main.js": "/ClothesProduct/static/js/main.6d4a4ed9.js",
+    "main.js": "/ClothesProduct/static/js/main.d38887d5.js",
     "static/media/dresses.jpeg": "/ClothesProduct/static/media/dresses.cb4da297555f1bc8aebf.jpeg",
+    "static/media/blouses6.jpg": "/ClothesProduct/static/media/blouses6.f9bca71733087749bb65.jpg",
+    "static/media/image2.jpg": "/ClothesProduct/static/media/image2.e23747d347ec02d5021f.jpg",
+    "static/media/blouses7.jpg": "/ClothesProduct/static/media/blouses7.35c9584282e30ea9882c.jpg",
     "static/media/shirt2.jpg": "/ClothesProduct/static/media/shirt2.ad1343164d3015c05a2e.jpg",
+    "static/media/blouses5.jpg": "/ClothesProduct/static/media/blouses5.942638b67bec3bea2c00.jpg",
+    "static/media/shirt1.jpg": "/ClothesProduct/static/media/shirt1.7db547a1c78115ac9422.jpg",
+    "static/media/image1.jpg": "/ClothesProduct/static/media/image1.e13f266b351f01b41716.jpg",
+    "static/media/blouses4.jpeg": "/ClothesProduct/static/media/blouses4.abf3ea12ce6ebca3a92c.jpeg",
+    "static/media/blouses8.jpg": "/ClothesProduct/static/media/blouses8.1cab7cf41320310930b4.jpg",
+    "static/media/blouses1.jpg": "/ClothesProduct/static/media/blouses1.e2345eee738768576df7.jpg",
+    "static/media/blouses9.jpg": "/ClothesProduct/static/media/blouses9.777c63c67dc8b4953e8a.jpg",
     "index.html": "/ClothesProduct/index.html",
     "main.dfb78563.css.map": "/ClothesProduct/static/css/main.dfb78563.css.map",
-    "main.6d4a4ed9.js.map": "/ClothesProduct/static/js/main.6d4a4ed9.js.map"
+    "main.d38887d5.js.map": "/ClothesProduct/static/js/main.d38887d5.js.map"
   },
   "entrypoints": [
     "static/css/main.dfb78563.css",
-    "static/js/main.6d4a4ed9.js"
+    "static/js/main.d38887d5.js"
   ]
 }
