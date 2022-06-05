@@ -1,0 +1,32 @@
+.title{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+}
+.title h1{
+    font-weight: bold ;
+    text-transform: capitalize;
+
+}
+.title p{
+    font-size: 1.4rem;
+}
+.carouselCol{
+width: 100%;
+height: 400px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+.image{
+  width: 25%;
+  height: 350px;
+  cursor: pointer;
+}
+.backG{
+  background-color: red;
+width: fit-content;
+}
+

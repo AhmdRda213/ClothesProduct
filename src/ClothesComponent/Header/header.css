@@ -1,0 +1,216 @@
+
+/* End nav bar small screen */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+
+}
+.head{
+    height: 25vh;
+    position:sticky;  
+    top: 0;  
+    z-index:555;
+    background-color: #fff;
+
+
+}
+/* container header */
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* logo word */
+.logoo{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* media logo word */
+@media(max-width:768px){
+    .logoo{
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+}
+.Search{
+    display: flex;
+    align-items: center;
+}
+/* text search */
+.search{
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 40px;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+
+/* search icons */
+.searchInfo{
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: relative;
+}
+/* search icons */
+.icons{
+    font-size: 2rem;
+    color: #fff;
+    font-weight:bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+/* content icons fav- sign shopping */
+.contIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+/* collection icons */
+.icon{
+    font-size: 1.7rem;
+    margin-right: 8px;
+}
+/* nav bar */
+.navegation{
+    width: 80%;
+    position: relative;
+}
+/* navbar ul */
+.navgationUl{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: -25px;
+    position: relative;
+}
+/* nav bar list */
+.navgationUl li{
+    
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    
+    
+}
+/* icons back  */
+.navback{
+    margin-left: 10px;
+}
+/* hover boreder bottom list */
+.navgationUl li:hover{
+    border-bottom: 2px solid black;
+    
+}
+.navgationUl li a{
+    color: black;
+    text-decoration: none;
+}
+/* bars icons */
+.barIcons{
+    position: absolute;
+    left: -25px;
+    top:25px;
+    font-style: normal;
+    font-size: 1.5rem;
+    transform: 0.3s;
+    display: none;
+}
+/* start media search and navbar */
+@media(max-width:1000px){
+    .Search{
+        display: none;
+    }
+    .navegation{
+        display: none;
+    }
+    .barIcons{
+        display: block;
+    }
+    
+    
+    
+    .navgationUl li:hover{
+        border:none;
+        margin-left: 10px;
+        transition: 0.3s
+        
+        
+    }
+    
+}
+/* start media search and navbar */
+
+@media(min-width:999px){
+    .barIcons{
+      left: -50px;
+      transition: 0.3s;
+    }
+}
+@media(max-width:768px){
+    .barIcons{
+        top: 18px;
+        left: 5px;
+        font-size:1rem;
+    }
+    
+}
+/* start nav bar small screen */
+.navegationCopy{
+position: absolute;
+    transition: 0.3s;
+    display: none;
+}
+.navgationUlcopy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navgationUlcopy li{
+    
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.navgationUlcopy li:hover{
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.navgationUlcopy li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.navgationUlcopy li a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    margin-right: 10px;
+    border: 1px solid red;
+}
+
+/* End nav bar small screen */
